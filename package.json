@@ -1,0 +1,23 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/page/index.html",
+    "server": "json-server --watch src/json-server/db.json "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.2"
+  },
+  "dependencies": {
+    "posthtml": "^0.16.6",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "books": [
+    {
+      "id": "87f07e83-c1d3-4838-be81-083034ff31b0",
+      "title": "JavaScript",
+      "author": "FPT",
+      "price": 35,
+      "totalQty": 50,
+      "availableQty": 48
+    },
+    {
+      "id": "6f76515a-5ad2-4856-99c4-612101159972",
+      "title": "HTML/CSS",
+      "author": "FPT",
+      "price": 35,
+      "totalQty": 10,
+      "availableQty": 9
+    },
+    {
+      "id": "e3cf8d9a-2b72-4143-b482-3f4f2d79a66a",
+      "title": "PHP",
+      "author": "FPT",
+      "price": 35,
+      "totalQty": 50,
+      "availableQty": 49
+    },
+    {
+      "id": "c02bea49-2d8e-48a3-bb8c-91006bd3302d",
+      "title": "Java",
+      "author": "FPT",
+      "price": 40,
+      "totalQty": 45,
+      "availableQty": 44
+    },
+    {
+      "id": "d3a9af1b-f3d0-4b03-936d-ca850330cc97",
+      "title": "Ruby",
+      "author": "FPT",
+      "price": 35,
+      "totalQty": 1,
+      "availableQty": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "7fce1750-cc35-43c6-9bc2-826989f5afcd",
+      "firstName": "Hoai",
+      "lastName": "Thuong",
+      "email": "ht2522001@gmail.com",
+      "phone": "0945346501",
+      "address": "228 Tan Tien"
+    },
+    {
+      "id": "dc3b0e41-0b27-4ca5-851f-38f99455c3e8",
+      "firstName": "Hoang",
+      "lastName": "Hai",
+      "email": "haihoanght@gmail.com",
+      "phone": "0377037373",
+      "address": "10 Quang Trung"
+    }
+  ],
+  "hireRequest": [
+    {
+      "id": "eaae2501-7521-45c7-a7be-b16818e2a6fc",
+      "user": "7fce1750-cc35-43c6-9bc2-826989f5afcd",
+      "book": "e3cf8d9a-2b72-4143-b482-3f4f2d79a66a",
+      "fromDate": "2022-03-27",
+      "toDate": "2022-04-01",
+      "isComplete": false
+    },
+    {
+      "id": "c28333ce-7a8a-448a-a477-6f9ed910250f",
+      "user": "7fce1750-cc35-43c6-9bc2-826989f5afcd",
+      "book": "6f76515a-5ad2-4856-99c4-612101159972",
+      "fromDate": "2022-03-28",
+      "toDate": "2022-03-30",
+      "isComplete": false
+    },
+    {
+      "id": "40e23de2-d907-47d0-9db7-af56f33a2468",
+      "user": "7fce1750-cc35-43c6-9bc2-826989f5afcd",
+      "book": "c02bea49-2d8e-48a3-bb8c-91006bd3302d",
+      "fromDate": "2022-03-28",
+      "toDate": "2022-04-02",
+      "isComplete": false
+    },
+    {
+      "id": "b430beb5-e162-47f4-b9c2-cbab36f43a85",
+      "user": "7fce1750-cc35-43c6-9bc2-826989f5afcd",
+      "book": "87f07e83-c1d3-4838-be81-083034ff31b0",
+      "fromDate": "2022-03-28",
+      "toDate": "2022-03-31",
+      "isComplete": false
+    }
+  ]
+}

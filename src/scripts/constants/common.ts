@@ -1,0 +1,9 @@
+const HIGHLIGHT_COLOR = "#FF4D4F";
+const NORMAL_COLOR = "green";
+const DATE_FORMAT = "YYYY-MM-DD";
+
+export {
+  HIGHLIGHT_COLOR,
+  NORMAL_COLOR,
+  DATE_FORMAT,
+};
